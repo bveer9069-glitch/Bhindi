@@ -1,0 +1,3 @@
+Assignment 5.md
+GitHub Repository Link and Hosting Setup?
+Ans.- sabse pehle GitHub par ek new  repository create ki Iske baad, local project folder mein jaakar remote origin configurations set kiye aur main branch ka use karke poore code ko GitHub par push kar diya History verify karne ke liye page ko refresh kiya aur saare commits ko confirm kiya. Orr fir repository ki Settings mein GitHub Pages activate karke project ko free mein host kar diya jisse live URL aur main repository link submission ke liye ready ho gaye.
