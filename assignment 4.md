@@ -1,0 +1,4 @@
+Assignment 4.md
+Repository and Meaningful Commits Setup?
+
+ Ans.- Is assignment ko complete karne ke liye ham ko repository setup ki aur teen meaningful commits ki jarurat hoti ha . Sabse pehle Project Documentation ke phase mein ek README.md file banakar project ka basic introduction add kiya . Iske baad, Basic Git Tasks ke stage mein shuruati setup files aur assignment documents  ko repo mein add  kiya. Orr fir , Core HTML Files par kaam karte hue html exercises aur core structures  ko feat  tag ke saath upload kiya. Is tarah proper workflow follow karke humne git log se poori history verify kar li.
