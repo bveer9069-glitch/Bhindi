@@ -1,28 +1,30 @@
-Assignment 29.html
-Hero-position-zindex.ht.l
-Ans.- <html>
+Assignment 28.html
+Fix-overflow.html
+Ans.- <!DOCTYPE html>
+<html>
 <head>
-<style>
-.hero {
-  background: lightblue;
-  height: 250px;
-  text-align: center;
-  position: relative;
-}
-.box {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: orange;
-  z-index: 1;
-}
-</style>
+    <title>Fix Overflow</title>
+    <style>
+        .box {
+            width: 250px;
+            padding: 10px;
+            border: 2px solid blue;
+            overflow-wrap: anywhere;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    </style>
 </head>
 <body>
-<div class="hero">
-  <div class="box">Hello</div>
-  <h1>Welcome</h1>
-  <p>Explore the World</p>
-</div>
+
+    <h2>Fix Overflow</h2>
+
+    <div class="box">
+        <img src="https://picsum.photos/300/100" alt="Nature">
+        <p>This is a very long text to fix overflow.</p>
+    </div>
+
 </body>
 </html>
