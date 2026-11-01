@@ -1,0 +1,52 @@
+Assignment 39.html
+Ans.- <!DOCTYPE html>
+<html>
+<head>
+    <title>Shop</title>
+    <style>
+        .page {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+        }
+
+        header, footer {
+            grid-column: 1 / 3;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+
+    <header>
+        <h2>Shop</h2>
+    </header>
+
+    <aside>
+        <h3>Menu</h3>
+        <p>Mobile</p>
+        <p>Shoes</p>
+        <p>Bag</p>
+    </aside>
+
+    <main>
+        <h3>Products</h3>
+
+        <div class="products">
+            <p>Mobile - 10000</p>
+            <p>Shoes - 2000</p>
+            <p>Bag - 900</p>
+        </div>
+    </main>
+
+    <footer>End</footer>
+
+</div>
+
+</body>
+</html>
