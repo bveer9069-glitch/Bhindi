@@ -1,0 +1,60 @@
+Assignment 42.html
+Ans.- <!DOCTYPE html>
+<html>
+<head>
+<title>Responsive Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+.container {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+img {
+    max-width: 100%;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Responsive Page</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="grid">
+<div>Card 1</div>
+<div>Card 2</div>
+<div>Card 3</div>
+</div>
+
+<div class="table-wrap">
+<table border="1">
+<tr><th>Name</th><th>Price</th></tr>
+<tr><td>Basic</td><td>Free</td></tr>
+</table>
+</div>
+
+</div>
+</body>
+</html>
